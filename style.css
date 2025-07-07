@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: azure;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-right {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  );
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-right a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.header-right a:hover {
+  color: blue;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.welcome-head,
+.header {
+  background: linear-gradient(45deg, red, blue);
+  padding: 20px 0;
+  border-radius: 12px;
+}
+p {
+  padding-top: 40px;
+}
